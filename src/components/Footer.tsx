@@ -8,8 +8,8 @@ export const Footer: FC = () => {
                 <div className="ml-12 py-12 mr-12">
                     <div className="grid grid-cols-2 md:grid-cols-6 gap-2 md:gap-8 md:space-x-12 relative">
                         <div className='flex flex-col col-span-2 mx-4 items-center md:items-start'>
-                            <div className='flex flex-row ml-1'>
-                                <Link href="https://solana.com" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+                            {/* <div className='flex flex-row ml-1'>
+                                <Link href="https://ukraineconfidential.com/" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
                                     <div className='flex flex-row ml-1'>
                                         <Image
                                             src="/solanaLogo.png"
@@ -19,7 +19,15 @@ export const Footer: FC = () => {
                                         />
                                     </div>
                                 </Link>
-                            </div>
+                            </div> */}
+                            {/* <div className='flex flex-row ml-1 mx-auto'>
+                                <Image
+                                    src="https://uc-images.s3.eu-de.cloud-object-storage.appdomain.cloud/Ukranian%20source%20file-02.png"
+                                    alt="custom image"
+                                    width={156}
+                                    height={96}
+                                />
+                            </div> */}
                             <div className="flex md:ml-2">
                                 <a href="https://twitter.com/solana_devs" type="button" className="border-white text-secondary hover:text-white leading-normal hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
                                     <svg aria-hidden="true"
@@ -55,11 +63,11 @@ export const Footer: FC = () => {
                                 </a>
                             </div>
                             <div className="mb-6 m-1 sm:text-left place-items-start items-start font-normal tracking-tight text-secondary">
-                                        © 2023 Solana Foundation
+                                        © 2024 Ukraine Confidential
                             </div>
                         </div>
 
-                        <div className="mb-6 items-center mx-auto max-w-screen-lg">
+                        {/* <div className="mb-6 items-center mx-auto max-w-screen-lg">
                             <div className="font-normal capitalize mb-2.5">SOLANA</div>
 
                             <div className="flex flex-col mb-0 gap-2">
@@ -79,9 +87,9 @@ export const Footer: FC = () => {
                                     Grants
                                 </Link>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <div className="mb-6 items-center mx-auto max-w-screen-lg">
+                        {/* <div className="mb-6 items-center mx-auto max-w-screen-lg">
                             <h5 className="font-normal capitalize tracking-tight  mb-2.5">DEVELOPERS</h5>
 
                             <div className="flex flex-col mb-0 gap-2">
@@ -101,9 +109,9 @@ export const Footer: FC = () => {
                                     DAOs
                                 </Link>
                             </div>
-                        </div>
+                        </div> */}
 
-                        <div className="mb-6 items-center mx-auto max-w-screen-lg">
+                        {/* <div className="mb-6 items-center mx-auto max-w-screen-lg">
                             <h5 className="font-normal tracking-tight  mb-2.5">ECOSYSTEM</h5>
 
                             <div className="flex flex-col mb-0 gap-2">
@@ -123,7 +131,7 @@ export const Footer: FC = () => {
                                     Solana U
                                 </Link>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </footer>
